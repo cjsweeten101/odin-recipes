@@ -1,7 +1,28 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
     background-color: rgb(0, 50, 83);
     color: white;
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+#base-container{
+    margin: 50px auto;
+    width: 400px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    margin: 16px;
 }
 
 a:link {
